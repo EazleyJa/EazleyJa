@@ -676,6 +676,14 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script>
+    
+    $(document).ready(function (){
+      $.get("https://jsonplaceholder.typicode.com/todos/1", function(data, status){
+      console.log("Data: " + data + "\nStatus: " + status);
+      });
+    });
+  </script>
 
 </body>
 </html>
