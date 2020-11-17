@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /contactform/
-Allow: *
+Disallow: /
